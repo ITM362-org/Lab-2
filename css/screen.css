@@ -1,0 +1,12 @@
+/* mobile first css*/
+
+body {
+	background-color: grey;
+}
+
+@media (max-width: 600px) {
+	h1, h2{
+		text-align: left;
+	}
+
+}
