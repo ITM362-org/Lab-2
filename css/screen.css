@@ -1,12 +1,38 @@
 /* mobile first css*/
 
-body {
-	background-color: grey;
-}
-
 @media (max-width: 600px) {
 	h1, h2{
 		text-align: left;
+		font-size: 20px;
+		font-family: "Arial";
 	}
+	
+	div{
+		border-style: dashed;
+		border-width: 1px;
+		text-align: center;
+	}
+	
+}
 
+body {
+	background-color: lightblue;
+}
+
+p{
+	font-family: "Arial";
+}
+
+label{
+	display: inline-block;
+}
+
+h1, h2{
+	text-align: left;
+	font-size: 25px;
+	font-family: "Arial";
+}
+
+div{
+	font-size: 20px;
 }
